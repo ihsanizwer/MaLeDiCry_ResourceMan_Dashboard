@@ -6,6 +6,7 @@
 
 body {
   overflow-x: hidden;
+  background: #2f3640;
 }
 
 #wrapper {
@@ -28,7 +29,7 @@ body {
   height: 100%;
   margin-left: -250px;
   overflow-y: auto;
-  background: #000;
+  background: #1e272e;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -60,6 +61,7 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+
 }
 
 .sidebar-nav li {
@@ -69,14 +71,16 @@ body {
 
 .sidebar-nav li a {
   display: block;
+  /*
   text-decoration: none;
-  color: #999999;
+  */
+  color: #607D8B;
 }
 
 .sidebar-nav li a:hover {
   text-decoration: none;
   color: #fff;
-  background: rgba(255, 255, 255, 0.2);
+  background: #616161; /*rgba(255, 255, 255, 0.2); */
 }
 
 .sidebar-nav li a:active, .sidebar-nav li a:focus {
